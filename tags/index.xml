@@ -3,10 +3,28 @@
         <title>Tags - Tag - Network Blog</title>
         <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - Network Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 Jun 2022 11:37:24 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
     <title>cloud</title>
     <link>http://localhost:1313/tags/cloud/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://localhost:1313/tags/cloud/</guid>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/cloud/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>eve-ng</title>
+    <link>http://localhost:1313/tags/eve-ng/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/eve-ng/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>networking</title>
+    <link>http://localhost:1313/tags/networking/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/networking/</guid>
+    <description><![CDATA[]]></description>
+</item>
+<item>
+    <title>virtualization</title>
+    <link>http://localhost:1313/tags/virtualization/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/virtualization/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>

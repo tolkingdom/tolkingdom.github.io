@@ -2,15 +2,20 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>http://localhost:1313/categories/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/cloud/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/eve-ng/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/eve-ng-networking-lab-setup/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/networking/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/posts/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/categories/servers/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
+            <loc>http://localhost:1313/tags/virtualization/</loc><lastmod>2022-06-21T00:48:21&#43;02:00</lastmod></url><url>
             <loc>http://localhost:1313/posts/markdown-test/</loc><lastmod>2022-06-20T12:25:20-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2022-06-20T12:25:20-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2022-06-20T12:25:20-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/categories/</loc><lastmod>2022-06-20T11:37:24-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/cloud/</loc><lastmod>2022-06-20T11:37:24-05:00</lastmod></url><url>
             <loc>http://localhost:1313/categories/cloud/</loc><lastmod>2022-06-20T11:37:24-05:00</lastmod></url><url>
             <loc>http://localhost:1313/posts/posttest2/</loc><lastmod>2022-06-20T11:37:24-05:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/routers/</loc><lastmod>2022-06-20T11:37:24-05:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2022-06-20T11:37:24-05:00</lastmod></url><url>
             <loc>http://localhost:1313/tags/cisco/</loc><lastmod>2022-06-20T11:37:18-05:00</lastmod></url><url>
             <loc>http://localhost:1313/categories/networking/</loc><lastmod>2022-06-20T11:37:18-05:00</lastmod></url><url>
             <loc>http://localhost:1313/posts/posttest/</loc><lastmod>2022-06-20T11:37:18-05:00</lastmod></url><url>

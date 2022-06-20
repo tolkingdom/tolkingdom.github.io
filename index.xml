@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Network Blog</title>
+        <link>http://localhost:1313/</link>
+        <description>Networking Blog - Cisco</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 Jun 2022 12:25:20 -0500</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+        <item>
+    <title>Markdown Test</title>
+    <link>http://localhost:1313/posts/markdown-test/</link>
+    <pubDate>Mon, 20 Jun 2022 12:25:20 -0500</pubDate><guid>http://localhost:1313/posts/markdown-test/</guid>
+    <description><![CDATA[Markdown: Syntax Overview Philosophy Inline HTML Automatic Escaping for Special Characters Block Elements Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules Span Elements Links Emphasis Code Images Miscellaneous Backslash Escapes Automatic Links Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;.text&rsquo; to the URL.
+Overview { &#34;firstName&#34;: &#34;John&#34;, &#34;lastName&#34;: &#34;Smith&#34;, &#34;age&#34;: 25 } Philosophy Markdown is intended to be as easy-to-read and easy-to-write as is feasible.]]></description>
+</item>
+<item>
+    <title>Posttest2</title>
+    <link>http://localhost:1313/posts/posttest2/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://localhost:1313/posts/posttest2/</guid>
+    <description><![CDATA[William Grana test]]></description>
+</item>
+<item>
+    <title>Posttest</title>
+    <link>http://localhost:1313/posts/posttest/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://localhost:1313/posts/posttest/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
+</rss>

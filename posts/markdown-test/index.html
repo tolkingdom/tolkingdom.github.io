@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Markdown Test - Network Blog</title><meta name="description" content="Networking Blog - Cisco"><meta property="og:title" content="Markdown Test" />
+<meta property="og:description" content="Markdown: Syntax Overview Philosophy Inline HTML Automatic Escaping for Special Characters Block Elements Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules Span Elements Links Emphasis Code Images Miscellaneous Backslash Escapes Automatic Links Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;.text&rsquo; to the URL.
+Overview { &#34;firstName&#34;: &#34;John&#34;, &#34;lastName&#34;: &#34;Smith&#34;, &#34;age&#34;: 25 } Philosophy Markdown is intended to be as easy-to-read and easy-to-write as is feasible." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/posts/markdown-test/" /><meta property="og:image" content="http://localhost:1313/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-06-20T12:25:20-05:00" />
+<meta property="article:modified_time" content="2022-06-20T12:25:20-05:00" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://localhost:1313/logo.png"/>
+
+<meta name="twitter:title" content="Markdown Test"/>
+<meta name="twitter:description" content="Markdown: Syntax Overview Philosophy Inline HTML Automatic Escaping for Special Characters Block Elements Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules Span Elements Links Emphasis Code Images Miscellaneous Backslash Escapes Automatic Links Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;.text&rsquo; to the URL.
+Overview { &#34;firstName&#34;: &#34;John&#34;, &#34;lastName&#34;: &#34;Smith&#34;, &#34;age&#34;: 25 } Philosophy Markdown is intended to be as easy-to-read and easy-to-write as is feasible."/>
+<meta name="application-name" content="NetworkBlog">
+<meta name="apple-mobile-web-app-title" content="NetworkBlog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/posts/markdown-test/" /><link rel="prev" href="http://localhost:1313/posts/posttest2/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Markdown Test",
+        "inLanguage": "en",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/posts\/markdown-test\/"
+        },"genre": "posts","wordcount":  1395 ,
+        "url": "http:\/\/localhost:1313\/posts\/markdown-test\/","datePublished": "2022-06-20T12:25:20-05:00","dateModified": "2022-06-20T12:25:20-05:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head><body data-header-desktop="fixed" data-header-mobile="auto"><script>(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Network Blog"><span id="id-1" class="typeit"></span></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Posts </a><a class="menu-item" href="/about/"> About </a><a class="menu-item" href="/tags/"> Tags </a><a class="menu-item" href="/categories/"> Categories </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a class="menu-item" href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Network Blog"><span id="id-2" class="typeit"></span></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="#" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="#" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="#" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Posts</a><a class="menu-item" href="/about/" title="">About</a><a class="menu-item" href="/tags/" title="">Tags</a><a class="menu-item" href="/categories/" title="">Categories</a><div class="menu-item"><a href="/index.xml" title="RSS"><i class="fas fa-rss fa-fw" title="RSS"></i> </a>
+                <span>&nbsp;|&nbsp;</span><a href="javascript:void(0);" class="theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw"></i>
+                </a>
+            </div></div>
+    </div>
+</header><div class="search-dropdown desktop">
+    <div id="search-dropdown-desktop"></div>
+</div>
+<div class="search-dropdown mobile">
+    <div id="search-dropdown-mobile"></div>
+</div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single" data-toc="enable"><div class="single-card" ><h2 class="single-title animated flipInX">Markdown Test</h2><div class="post-meta">
+                <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Author</a></span></div>
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-06-20">2022-06-20</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;1395 words</span>&nbsp;
+                    <span><i class="far fa-clock fa-fw"></i>&nbsp;7 minutes</span>&nbsp;</div>
+            </div>
+            
+            <hr><div class="details toc" id="toc-static"  data-kept="true">
+                    <div class="details-summary toc-title">
+                        <span>Contents</span>
+                        <span><i class="details-icon fas fa-angle-right"></i></span>
+                    </div>
+                    <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#overview">Overview</a>
+      <ul>
+        <li><a href="#philosophy">Philosophy</a></li>
+      </ul>
+    </li>
+    <li><a href="#block-elements">Block Elements</a>
+      <ul>
+        <li><a href="#paragraphs-and-line-breaks">Paragraphs and Line Breaks</a></li>
+        <li><a href="#headers">Headers</a></li>
+        <li><a href="#blockquotes">Blockquotes</a></li>
+      </ul>
+    </li>
+    <li><a href="#this-is-a-header">This is a header.</a>
+      <ul>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#code-blocks">Code Blocks</a></li>
+      </ul>
+    </li>
+    <li><a href="#span-elements">Span Elements</a>
+      <ul>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#emphasis">Emphasis</a></li>
+        <li><a href="#code">Code</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+                </div><div class="content" id="content"><h1 id="markdown-syntax">Markdown: Syntax</h1>
+<ul>
+<li><a href="#overview" rel="">Overview</a>
+<ul>
+<li><a href="#philosophy" rel="">Philosophy</a></li>
+<li><a href="#html" rel="">Inline HTML</a></li>
+<li><a href="#autoescape" rel="">Automatic Escaping for Special Characters</a></li>
+</ul>
+</li>
+<li><a href="#block" rel="">Block Elements</a>
+<ul>
+<li><a href="#p" rel="">Paragraphs and Line Breaks</a></li>
+<li><a href="#header" rel="">Headers</a></li>
+<li><a href="#blockquote" rel="">Blockquotes</a></li>
+<li><a href="#list" rel="">Lists</a></li>
+<li><a href="#precode" rel="">Code Blocks</a></li>
+<li><a href="#hr" rel="">Horizontal Rules</a></li>
+</ul>
+</li>
+<li><a href="#span" rel="">Span Elements</a>
+<ul>
+<li><a href="#link" rel="">Links</a></li>
+<li><a href="#em" rel="">Emphasis</a></li>
+<li><a href="#code" rel="">Code</a></li>
+<li><a href="#img" rel="">Images</a></li>
+</ul>
+</li>
+<li><a href="#misc" rel="">Miscellaneous</a>
+<ul>
+<li><a href="#backslash" rel="">Backslash Escapes</a></li>
+<li><a href="#autolink" rel="">Automatic Links</a></li>
+</ul>
+</li>
+</ul>
+<p><strong>Note:</strong> This document is itself written using Markdown; you
+can <a href="/projects/markdown/syntax.text" rel="">see the source for it by adding &lsquo;.text&rsquo; to the URL</a>.</p>
+<hr>
+<h2 id="overview">Overview</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-json" data-lang="json"><span class="line"><span class="cl"><span class="p">{</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;firstName&#34;</span><span class="p">:</span> <span class="s2">&#34;John&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;lastName&#34;</span><span class="p">:</span> <span class="s2">&#34;Smith&#34;</span><span class="p">,</span>
+</span></span><span class="line"><span class="cl">  <span class="nt">&#34;age&#34;</span><span class="p">:</span> <span class="mi">25</span>
+</span></span><span class="line"><span class="cl"><span class="p">}</span>
+</span></span></code></pre></div><h3 id="philosophy">Philosophy</h3>
+<p>Markdown is intended to be as easy-to-read and easy-to-write as is feasible.</p>
+<p>Readability, however, is emphasized above all else. A Markdown-formatted
+document should be publishable as-is, as plain text, without looking
+like it&rsquo;s been marked up with tags or formatting instructions. While
+Markdown&rsquo;s syntax has been influenced by several existing text-to-HTML
+filters &ndash; including <a href="http://docutils.sourceforge.net/mirror/setext.html" target="_blank" rel="noopener noreffer">Setext</a>, <a href="http://www.aaronsw.com/2002/atx/" target="_blank" rel="noopener noreffer">atx</a>, <a href="http://textism.com/tools/textile/" target="_blank" rel="noopener noreffer">Textile</a>, <a href="http://docutils.sourceforge.net/rst.html" target="_blank" rel="noopener noreffer">reStructuredText</a>,
+<a href="http://www.triptico.com/software/grutatxt.html" target="_blank" rel="noopener noreffer">Grutatext</a>, and <a href="http://ettext.taint.org/doc/" target="_blank" rel="noopener noreffer">EtText</a> &ndash; the single biggest source of
+inspiration for Markdown&rsquo;s syntax is the format of plain text email.</p>
+<h2 id="block-elements">Block Elements</h2>
+<h3 id="paragraphs-and-line-breaks">Paragraphs and Line Breaks</h3>
+<p>A paragraph is simply one or more consecutive lines of text, separated
+by one or more blank lines. (A blank line is any line that looks like a
+blank line &ndash; a line containing nothing but spaces or tabs is considered
+blank.) Normal paragraphs should not be indented with spaces or tabs.</p>
+<p>The implication of the &ldquo;one or more consecutive lines of text&rdquo; rule is
+that Markdown supports &ldquo;hard-wrapped&rdquo; text paragraphs. This differs
+significantly from most other text-to-HTML formatters (including Movable
+Type&rsquo;s &ldquo;Convert Line Breaks&rdquo; option) which translate every line break
+character in a paragraph into a <code>&lt;br /&gt;</code> tag.</p>
+<p>When you <em>do</em> want to insert a <code>&lt;br /&gt;</code> break tag using Markdown, you
+end a line with two or more spaces, then type return.</p>
+<h3 id="headers">Headers</h3>
+<p>Markdown supports two styles of headers, [Setext] [1] and [atx] [2].</p>
+<p>Optionally, you may &ldquo;close&rdquo; atx-style headers. This is purely
+cosmetic &ndash; you can use this if you think it looks better. The
+closing hashes don&rsquo;t even need to match the number of hashes
+used to open the header. (The number of opening hashes
+determines the header level.)</p>
+<h3 id="blockquotes">Blockquotes</h3>
+<p>Markdown uses email-style <code>&gt;</code> characters for blockquoting. If you&rsquo;re
+familiar with quoting passages of text in an email message, then you
+know how to create a blockquote in Markdown. It looks best if you hard
+wrap the text and put a <code>&gt;</code> before every line:</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p>Markdown allows you to be lazy and only put the <code>&gt;</code> before the first
+line of a hard-wrapped paragraph:</p>
+<blockquote>
+<p>This is a blockquote with two paragraphs. Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit. Aliquam hendrerit mi posuere lectus.
+Vestibulum enim wisi, viverra nec, fringilla in, laoreet vitae, risus.</p>
+</blockquote>
+<blockquote>
+<p>Donec sit amet nisl. Aliquam semper ipsum sit amet velit. Suspendisse
+id sem consectetuer libero luctus adipiscing.</p>
+</blockquote>
+<p>Blockquotes can be nested (i.e. a blockquote-in-a-blockquote) by
+adding additional levels of <code>&gt;</code>:</p>
+<blockquote>
+<p>This is the first level of quoting.</p>
+<blockquote>
+<p>This is nested blockquote.</p>
+</blockquote>
+<p>Back to the first level.</p>
+</blockquote>
+<p>Blockquotes can contain other Markdown elements, including headers, lists,
+and code blocks:</p>
+<blockquote>
+<h2 id="this-is-a-header">This is a header.</h2>
+<ol>
+<li>This is the first list item.</li>
+<li>This is the second list item.</li>
+</ol>
+<p>Here&rsquo;s some example code:</p>
+<pre><code>return shell_exec(&quot;echo $input | $markdown_script&quot;);
+</code></pre>
+</blockquote>
+<p>Any decent text editor should make email-style quoting easy. For
+example, with BBEdit, you can make a selection and choose Increase
+Quote Level from the Text menu.</p>
+<h3 id="lists">Lists</h3>
+<p>Markdown supports ordered (numbered) and unordered (bulleted) lists.</p>
+<p>Unordered lists use asterisks, pluses, and hyphens &ndash; interchangably
+&ndash; as list markers:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>is equivalent to:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>and:</p>
+<ul>
+<li>Red</li>
+<li>Green</li>
+<li>Blue</li>
+</ul>
+<p>Ordered lists use numbers followed by periods:</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p>It&rsquo;s important to note that the actual numbers you use to mark the
+list have no effect on the HTML output Markdown produces. The HTML
+Markdown produces from the above list is:</p>
+<p>If you instead wrote the list in Markdown like this:</p>
+<ol>
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p>or even:</p>
+<ol start="3">
+<li>Bird</li>
+<li>McHale</li>
+<li>Parish</li>
+</ol>
+<p>you&rsquo;d get the exact same HTML output. The point is, if you want to,
+you can use ordinal numbers in your ordered Markdown lists, so that
+the numbers in your source match the numbers in your published HTML.
+But if you want to be lazy, you don&rsquo;t have to.</p>
+<p>To make lists look nice, you can wrap items with hanging indents:</p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.</li>
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+</ul>
+<p>But if you want to be lazy, you don&rsquo;t have to:</p>
+<ul>
+<li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+Aliquam hendrerit mi posuere lectus. Vestibulum enim wisi,
+viverra nec, fringilla in, laoreet vitae, risus.</li>
+<li>Donec sit amet nisl. Aliquam semper ipsum sit amet velit.
+Suspendisse id sem consectetuer libero luctus adipiscing.</li>
+</ul>
+<p>List items may consist of multiple paragraphs. Each subsequent
+paragraph in a list item must be indented by either 4 spaces
+or one tab:</p>
+<ol>
+<li>
+<p>This is a list item with two paragraphs. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit. Aliquam hendrerit
+mi posuere lectus.</p>
+<p>Vestibulum enim wisi, viverra nec, fringilla in, laoreet
+vitae, risus. Donec sit amet nisl. Aliquam semper ipsum
+sit amet velit.</p>
+</li>
+<li>
+<p>Suspendisse id sem consectetuer libero luctus adipiscing.</p>
+</li>
+</ol>
+<p>It looks nice if you indent every line of the subsequent
+paragraphs, but here again, Markdown will allow you to be
+lazy:</p>
+<ul>
+<li>
+<p>This is a list item with two paragraphs.</p>
+<p>This is the second paragraph in the list item. You&rsquo;re
+only required to indent the first line. Lorem ipsum dolor
+sit amet, consectetuer adipiscing elit.</p>
+</li>
+<li>
+<p>Another item in the same list.</p>
+</li>
+</ul>
+<p>To put a blockquote within a list item, the blockquote&rsquo;s <code>&gt;</code>
+delimiters need to be indented:</p>
+<ul>
+<li>
+<p>A list item with a blockquote:</p>
+<blockquote>
+<p>This is a blockquote
+inside a list item.</p>
+</blockquote>
+</li>
+</ul>
+<p>To put a code block within a list item, the code block needs
+to be indented <em>twice</em> &ndash; 8 spaces or two tabs:</p>
+<ul>
+<li>
+<p>A list item with a code block:</p>
+<pre><code>&lt;code goes here&gt;
+</code></pre>
+</li>
+</ul>
+<h3 id="code-blocks">Code Blocks</h3>
+<p>Pre-formatted code blocks are used for writing about programming or
+markup source code. Rather than forming normal paragraphs, the lines
+of a code block are interpreted literally. Markdown wraps a code block
+in both <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags.</p>
+<p>To produce a code block in Markdown, simply indent every line of the
+block by at least 4 spaces or 1 tab.</p>
+<p>This is a normal paragraph:</p>
+<pre><code>This is a code block.
+</code></pre>
+<p>Here is an example of AppleScript:</p>
+<pre><code>tell application &quot;Foo&quot;
+    beep
+end tell
+</code></pre>
+<p>A code block continues until it reaches a line that is not indented
+(or the end of the article).</p>
+<p>Within a code block, ampersands (<code>&amp;</code>) and angle brackets (<code>&lt;</code> and <code>&gt;</code>)
+are automatically converted into HTML entities. This makes it very
+easy to include example HTML source code using Markdown &ndash; just paste
+it and indent it, and Markdown will handle the hassle of encoding the
+ampersands and angle brackets. For example, this:</p>
+<pre><code>&lt;div class=&quot;footer&quot;&gt;
+    &amp;copy; 2004 Foo Corporation
+&lt;/div&gt;
+</code></pre>
+<p>Regular Markdown syntax is not processed within code blocks. E.g.,
+asterisks are just literal asterisks within a code block. This means
+it&rsquo;s also easy to use Markdown to write about Markdown&rsquo;s own syntax.</p>
+<pre tabindex="0"><code>tell application &#34;Foo&#34;
+    beep
+end tell
+</code></pre><h2 id="span-elements">Span Elements</h2>
+<h3 id="links">Links</h3>
+<p>Markdown supports two style of links: <em>inline</em> and <em>reference</em>.</p>
+<p>In both styles, the link text is delimited by [square brackets].</p>
+<p>To create an inline link, use a set of regular parentheses immediately
+after the link text&rsquo;s closing square bracket. Inside the parentheses,
+put the URL where you want the link to point, along with an <em>optional</em>
+title for the link, surrounded in quotes. For example:</p>
+<p>This is <a href="http://example.com/" target="_blank" rel="noopener noreffer">an example</a> inline link.</p>
+<p><a href="http://example.net/" target="_blank" rel="noopener noreffer">This link</a> has no title attribute.</p>
+<h3 id="emphasis">Emphasis</h3>
+<p>Markdown treats asterisks (<code>*</code>) and underscores (<code>_</code>) as indicators of
+emphasis. Text wrapped with one <code>*</code> or <code>_</code> will be wrapped with an
+HTML <code>&lt;em&gt;</code> tag; double <code>*</code>&rsquo;s or <code>_</code>&rsquo;s will be wrapped with an HTML
+<code>&lt;strong&gt;</code> tag. E.g., this input:</p>
+<p><em>single asterisks</em></p>
+<p><em>single underscores</em></p>
+<p><strong>double asterisks</strong></p>
+<p><strong>double underscores</strong></p>
+<h3 id="code">Code</h3>
+<p>To indicate a span of code, wrap it with backtick quotes (<code>`</code>).
+Unlike a pre-formatted code block, a code span indicates code within a
+normal paragraph. For example:</p>
+<p>Use the <code>printf()</code> function.</p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info"><div class="post-info-line"><div class="post-info-mod">
+                <span>Updated on 2022-06-20</span>
+            </div><div class="post-info-mod"></div>
+        </div><div class="post-info-share">
+            <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/posts/markdown-test/" data-title="Markdown Test" data-via="xxxx"><i class="fab fa-twitter fa-fw"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/posts/markdown-test/"><i class="fab fa-facebook-square fa-fw"></i></a><a href="javascript:void(0);" title="Share on WhatsApp" data-sharer="whatsapp" data-url="http://localhost:1313/posts/markdown-test/" data-title="Markdown Test" data-web><i class="fab fa-whatsapp fa-fw"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/posts/markdown-test/" data-title="Markdown Test"><i class="fab fa-line fa-fw"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/posts/markdown-test/" data-title="Markdown Test"><i class="fab fa-weibo fa-fw"></i></a><a href="javascript:void(0);" title="Share on Myspace" data-sharer="myspace" data-url="http://localhost:1313/posts/markdown-test/" data-title="Markdown Test" data-description=""><i data-svg-src="/lib/simple-icons/icons/myspace.min.svg"></i></a><a href="javascript:void(0);" title="Share on Blogger" data-sharer="blogger" data-url="http://localhost:1313/posts/markdown-test/" data-title="Markdown Test" data-description=""><i class="fab fa-blogger fa-fw"></i></a><a href="javascript:void(0);" title="Share on Evernote" data-sharer="evernote" data-url="http://localhost:1313/posts/markdown-test/" data-title="Markdown Test"><i class="fab fa-evernote fa-fw"></i></a></span>
+        </div></div><div class="post-nav"><a href="/posts/posttest2/" class="prev" rel="prev" title="Posttest2"><i class="fas fa-angle-left fa-fw"></i>Previous Post</a></div></div>
+</div><div id="comments" class="single-card"></div></article></div>
+            </main>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.101.0">Hugo</a> | Theme - <a href="https://github.com/khusika/FeelIt" target="_blank" rel="noopener noreffer" title="FeelIt 1.0.1"><i class="fas fa-hand-holding-heart fa-fw"></i> FeelIt</a>
+        </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+</div>
+<script>
+if ('serviceWorker' in navigator) {
+    navigator.serviceWorker
+        .register('/sw.min.js?version=1.0.1', { scope: '/' })
+        .then(() => {
+            console.info('Network Blog\u00A0Service Worker Registered');
+        }, err => console.error('Network Blog\u00A0Service Worker registration failed: ', err));
+
+    navigator.serviceWorker
+        .ready
+        .then(() => {
+            console.info('Network Blog\u00A0Service Worker Ready');
+        });
+}
+</script>
+</footer>
+        </div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-chevron-up fa-fw"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment-alt fa-fw"></i>
+            </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="/lib/autocomplete/autocomplete.min.js"></script><script src="/lib/lunr/lunr.min.js"></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/typeit/typeit.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/cookieconsent/cookieconsent.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"Network Blog","id-2":"Network Blog"},"search":{"highlightTag":"em","maxResultLength":10,"noResultsFound":"No results found","snippetLength":30},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script src="/js/theme.min.js"></script></body></html>

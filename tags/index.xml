@@ -1,48 +1,48 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Tags - Tag - Network Blog</title>
-        <link>http://localhost:1313/tags/</link>
-        <description>Tags - Tag - Network Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+        <title>Tags - Tag - PacketLoss.dev</title>
+        <link>http://tolkingdom.github.io/tags/</link>
+        <description>Tags - Tag - PacketLoss.dev</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate><atom:link href="http://tolkingdom.github.io/tags/" rel="self" type="application/rss+xml" /><item>
     <title>cloud</title>
-    <link>http://localhost:1313/tags/cloud/</link>
-    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/cloud/</guid>
+    <link>http://tolkingdom.github.io/tags/cloud/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/tags/cloud/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>eve-ng</title>
-    <link>http://localhost:1313/tags/eve-ng/</link>
-    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/eve-ng/</guid>
+    <link>http://tolkingdom.github.io/tags/eve-ng/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/tags/eve-ng/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>networking</title>
-    <link>http://localhost:1313/tags/networking/</link>
-    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/networking/</guid>
+    <link>http://tolkingdom.github.io/tags/networking/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/tags/networking/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>virtualization</title>
-    <link>http://localhost:1313/tags/virtualization/</link>
-    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/tags/virtualization/</guid>
+    <link>http://tolkingdom.github.io/tags/virtualization/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/tags/virtualization/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>routers</title>
-    <link>http://localhost:1313/tags/routers/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://localhost:1313/tags/routers/</guid>
+    <link>http://tolkingdom.github.io/tags/routers/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://tolkingdom.github.io/tags/routers/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>cisco</title>
-    <link>http://localhost:1313/tags/cisco/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://localhost:1313/tags/cisco/</guid>
+    <link>http://tolkingdom.github.io/tags/cisco/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://tolkingdom.github.io/tags/cisco/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>test</title>
-    <link>http://localhost:1313/tags/test/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://localhost:1313/tags/test/</guid>
+    <link>http://tolkingdom.github.io/tags/test/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://tolkingdom.github.io/tags/test/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

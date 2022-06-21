@@ -1,24 +1,24 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Categories - Category - Network Blog</title>
-        <link>http://localhost:1313/categories/</link>
-        <description>Categories - Category - Network Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate><atom:link href="http://localhost:1313/categories/" rel="self" type="application/rss+xml" /><item>
+        <title>Categories - Category - PacketLoss.dev</title>
+        <link>http://tolkingdom.github.io/categories/</link>
+        <description>Categories - Category - PacketLoss.dev</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate><atom:link href="http://tolkingdom.github.io/categories/" rel="self" type="application/rss+xml" /><item>
     <title>servers</title>
-    <link>http://localhost:1313/categories/servers/</link>
-    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/categories/servers/</guid>
+    <link>http://tolkingdom.github.io/categories/servers/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/categories/servers/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>cloud</title>
-    <link>http://localhost:1313/categories/cloud/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://localhost:1313/categories/cloud/</guid>
+    <link>http://tolkingdom.github.io/categories/cloud/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://tolkingdom.github.io/categories/cloud/</guid>
     <description><![CDATA[]]></description>
 </item>
 <item>
     <title>networking</title>
-    <link>http://localhost:1313/categories/networking/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://localhost:1313/categories/networking/</guid>
+    <link>http://tolkingdom.github.io/categories/networking/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://tolkingdom.github.io/categories/networking/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

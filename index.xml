@@ -1,14 +1,14 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Network Blog</title>
-        <link>http://localhost:1313/</link>
-        <description>Networking Blog - Cisco</description>
+        <title>PacketLoss.dev</title>
+        <link>http://tolkingdom.github.io/</link>
+        <description>PacketLoss.dev - Networking Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate>
-            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="http://tolkingdom.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>EVE-NG Quick Setup Guide</title>
-    <link>http://localhost:1313/posts/eve-ng-networking-lab-setup/</link>
-    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://localhost:1313/posts/eve-ng-networking-lab-setup/</guid>
+    <link>http://tolkingdom.github.io/posts/eve-ng-networking-lab-setup/</link>
+    <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/posts/eve-ng-networking-lab-setup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/eve-ng-lab.jpg" referrerpolicy="no-referrer">
             </div>What is EVE-NG? EVE-NG is an amazing tool that should be included in any aspiring/current IT engineers toolbelt. It allows you to create and emulate large scale network/server topologies!
@@ -17,8 +17,8 @@ Pre-Requisites VMWare Workstation ]]></description>
 </item>
 <item>
     <title>Markdown Test</title>
-    <link>http://localhost:1313/posts/markdown-test/</link>
-    <pubDate>Mon, 20 Jun 2022 12:25:20 -0500</pubDate><guid>http://localhost:1313/posts/markdown-test/</guid>
+    <link>http://tolkingdom.github.io/posts/markdown-test/</link>
+    <pubDate>Mon, 20 Jun 2022 12:25:20 -0500</pubDate><guid>http://tolkingdom.github.io/posts/markdown-test/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/what-is-sdwan.png" referrerpolicy="no-referrer">
             </div>Markdown: Syntax Overview Philosophy Inline HTML Automatic Escaping for Special Characters Block Elements Paragraphs and Line Breaks Headers Blockquotes Lists Code Blocks Horizontal Rules Span Elements Links Emphasis Code Images Miscellaneous Backslash Escapes Automatic Links Note: This document is itself written using Markdown; you can see the source for it by adding &lsquo;.text&rsquo; to the URL.
@@ -26,14 +26,14 @@ Overview { &#34;firstName&#34;: &#34;John&#34;, &#34;lastName&#34;: &#34;Smith&#
 </item>
 <item>
     <title>Posttest2</title>
-    <link>http://localhost:1313/posts/posttest2/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://localhost:1313/posts/posttest2/</guid>
+    <link>http://tolkingdom.github.io/posts/posttest2/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://tolkingdom.github.io/posts/posttest2/</guid>
     <description><![CDATA[William Grana test]]></description>
 </item>
 <item>
     <title>Posttest</title>
-    <link>http://localhost:1313/posts/posttest/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://localhost:1313/posts/posttest/</guid>
+    <link>http://tolkingdom.github.io/posts/posttest/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://tolkingdom.github.io/posts/posttest/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

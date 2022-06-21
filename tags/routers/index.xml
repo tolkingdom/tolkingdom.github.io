@@ -1,18 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>routers - Tag - Network Blog</title>
-        <link>http://localhost:1313/tags/routers/</link>
-        <description>routers - Tag - Network Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 Jun 2022 11:37:24 -0500</lastBuildDate><atom:link href="http://localhost:1313/tags/routers/" rel="self" type="application/rss+xml" /><item>
+        <title>routers - Tag - PacketLoss.dev</title>
+        <link>http://tolkingdom.github.io/tags/routers/</link>
+        <description>routers - Tag - PacketLoss.dev</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 Jun 2022 11:37:24 -0500</lastBuildDate><atom:link href="http://tolkingdom.github.io/tags/routers/" rel="self" type="application/rss+xml" /><item>
     <title>Posttest2</title>
-    <link>http://localhost:1313/posts/posttest2/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://localhost:1313/posts/posttest2/</guid>
+    <link>http://tolkingdom.github.io/posts/posttest2/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:24 -0500</pubDate><guid>http://tolkingdom.github.io/posts/posttest2/</guid>
     <description><![CDATA[William Grana test]]></description>
 </item>
 <item>
     <title>Posttest</title>
-    <link>http://localhost:1313/posts/posttest/</link>
-    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://localhost:1313/posts/posttest/</guid>
+    <link>http://tolkingdom.github.io/posts/posttest/</link>
+    <pubDate>Mon, 20 Jun 2022 11:37:18 -0500</pubDate><guid>http://tolkingdom.github.io/posts/posttest/</guid>
     <description><![CDATA[]]></description>
 </item>
 </channel>

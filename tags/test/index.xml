@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>test - Tag - wgrana.dev</title>
+        <title>test - Tag - WillGrana.dev</title>
         <link>http://tolkingdom.github.io/tags/test/</link>
-        <description>test - Tag - wgrana.dev</description>
+        <description>test - Tag - WillGrana.dev</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 Jun 2022 11:37:18 -0500</lastBuildDate><atom:link href="http://tolkingdom.github.io/tags/test/" rel="self" type="application/rss+xml" /><item>
     <title>Posttest</title>
     <link>http://tolkingdom.github.io/posts/posttest/</link>

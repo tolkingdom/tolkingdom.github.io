@@ -1,17 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>virtualization - Tag - PacketLoss.dev</title>
+        <title>virtualization - Tag - wgrana.dev</title>
         <link>http://tolkingdom.github.io/tags/virtualization/</link>
-        <description>virtualization - Tag - PacketLoss.dev</description>
+        <description>virtualization - Tag - wgrana.dev</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate><atom:link href="http://tolkingdom.github.io/tags/virtualization/" rel="self" type="application/rss+xml" /><item>
     <title>EVE-NG Quick Setup Guide</title>
     <link>http://tolkingdom.github.io/posts/eve-ng-networking-lab-setup/</link>
     <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/posts/eve-ng-networking-lab-setup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/eve-ng-lab.jpg" referrerpolicy="no-referrer">
-            </div>What is EVE-NG? EVE-NG is an amazing tool that should be included in any aspiring/current IT engineers toolbelt. It allows you to create and emulate large scale network/server topologies!
-Download Download EVE-NG
-Pre-Requisites VMWare Workstation ]]></description>
+            </div>What is EVE-NG? EVE-NG is an amazing tool that should be included in any aspiring/current IT engineers toolbelt. It allows you to create and emulate large scale network/server topologies! Download EVE-NG
+VM Configuration VMware Workstation Player Vmware Workstation Player is a free type-two hypervisor created by VMware that allows you to configure and run virtual machines on directly on top of your local computers pre-existing operating system. This is perfect for the simple home-lab environment.]]></description>
 </item>
 </channel>
 </rss>

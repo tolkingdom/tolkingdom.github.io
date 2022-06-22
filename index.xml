@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>PacketLoss.dev</title>
+        <title>wgrana.dev</title>
         <link>http://tolkingdom.github.io/</link>
-        <description>PacketLoss.dev - Networking Blog</description>
+        <description>wgrana.dev - Networking Blog</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</lastBuildDate>
             <atom:link href="http://tolkingdom.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
@@ -11,9 +11,8 @@
     <pubDate>Tue, 21 Jun 2022 00:48:21 &#43;0200</pubDate><guid>http://tolkingdom.github.io/posts/eve-ng-networking-lab-setup/</guid>
     <description><![CDATA[<div class="featured-image">
                 <img src="/images/eve-ng-lab.jpg" referrerpolicy="no-referrer">
-            </div>What is EVE-NG? EVE-NG is an amazing tool that should be included in any aspiring/current IT engineers toolbelt. It allows you to create and emulate large scale network/server topologies!
-Download Download EVE-NG
-Pre-Requisites VMWare Workstation ]]></description>
+            </div>What is EVE-NG? EVE-NG is an amazing tool that should be included in any aspiring/current IT engineers toolbelt. It allows you to create and emulate large scale network/server topologies! Download EVE-NG
+VM Configuration VMware Workstation Player Vmware Workstation Player is a free type-two hypervisor created by VMware that allows you to configure and run virtual machines on directly on top of your local computers pre-existing operating system. This is perfect for the simple home-lab environment.]]></description>
 </item>
 <item>
     <title>Markdown Test</title>

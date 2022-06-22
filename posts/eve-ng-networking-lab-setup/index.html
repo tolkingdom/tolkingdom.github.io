@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>EVE-NG Quick Setup Guide - PacketLoss.dev</title><meta name="description" content="How to quickly get up and running in a virtualized EVE-NG envirmoment"><meta property="og:title" content="EVE-NG Quick Setup Guide" />
+        <title>EVE-NG Quick Setup Guide - wgrana.dev</title><meta name="description" content="How to quickly get up and running in a virtualized EVE-NG envirmoment"><meta property="og:title" content="EVE-NG Quick Setup Guide" />
 <meta property="og:description" content="How to quickly get up and running in a virtualized EVE-NG envirmoment" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://tolkingdom.github.io/posts/eve-ng-networking-lab-setup/" /><meta property="og:image" content="http://tolkingdom.github.io/images/avatar.png"/><meta property="article:section" content="posts" />
@@ -16,8 +16,8 @@
 
 <meta name="twitter:title" content="EVE-NG Quick Setup Guide"/>
 <meta name="twitter:description" content="How to quickly get up and running in a virtualized EVE-NG envirmoment"/>
-<meta name="application-name" content="PacketLoss.dev">
-<meta name="apple-mobile-web-app-title" content="PacketLoss.dev"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+<meta name="application-name" content="wgrana.dev">
+<meta name="apple-mobile-web-app-title" content="wgrana.dev"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://tolkingdom.github.io/posts/eve-ng-networking-lab-setup/" /><link rel="prev" href="http://tolkingdom.github.io/posts/markdown-test/" /><link rel="stylesheet" href="/css/page.min.css"><link rel="stylesheet" href="/css/home.min.css"><script type="application/ld+json">
     {
@@ -33,7 +33,7 @@
                             "url": "http:\/\/tolkingdom.github.io\/images\/avatar.png",
                             "width":  300 ,
                             "height":  300 
-                        }],"genre": "posts","keywords": "eve-ng, virtualization, cloud, networking","wordcount":  35 ,
+                        }],"genre": "posts","keywords": "eve-ng, virtualization, cloud, networking","wordcount":  175 ,
         "url": "http:\/\/tolkingdom.github.io\/posts\/eve-ng-networking-lab-setup\/","datePublished": "2022-06-21T00:48:21+02:00","dateModified": "2022-06-21T00:48:21+02:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -46,7 +46,7 @@
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
     <div class="header-wrapper">
         <div class="header-title">
-            <a href="/" title="PacketLoss.dev"><img
+            <a href="/" title="wgrana.dev"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
         data-src="/images/avatar.png"
@@ -66,7 +66,7 @@
     <div class="header-container">
         <div class="header-wrapper">
             <div class="header-title">
-                <a href="/" title="PacketLoss.dev"><img
+                <a href="/" title="wgrana.dev"><img
         class="lazyload logo"
         src="/svg/loading.min.svg"
         data-src="/images/avatar.png"
@@ -98,7 +98,7 @@
         alt="/images/eve-ng-lab.jpg"
         title="How to quickly get up and running in a virtualized EVE-NG envirmoment" /></div><div class="single-card" data-image="true"><h2 class="single-title animated flipInX">EVE-NG Quick Setup Guide</h2><div class="post-meta">
                 <div class="post-meta-line"><span class="post-author"><a href="about" title="Author" rel=" author" class="author"><i class="fas fa-user-circle fa-fw"></i>Will</a></span>&nbsp;<span class="post-category">published in <a href="/categories/servers/"><i class="far fa-folder fa-fw"></i>servers</a></span></div>
-                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-06-21">2022-06-21</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;35 words</span>&nbsp;
+                <div class="post-meta-line"><span><i class="far fa-calendar-alt fa-fw"></i>&nbsp;<time datetime="2022-06-21">2022-06-21</time></span>&nbsp;<span><i class="fas fa-pencil-alt fa-fw"></i>&nbsp;175 words</span>&nbsp;
                     <span><i class="far fa-clock fa-fw"></i>&nbsp;One minute</span>&nbsp;</div>
             </div>
             
@@ -109,18 +109,40 @@
                     </div>
                     <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li><a href="#download">Download</a></li>
-    <li><a href="#pre-requisites">Pre-Requisites</a></li>
+    <li><a href="#what-is-eve-ng">What is EVE-NG?</a></li>
+    <li><a href="#vm-configuration">VM Configuration</a>
+      <ul>
+        <li><a href="#vmware-workstation-player">VMware Workstation Player</a></li>
+        <li><a href="#setting-up-the-eve-ng-vm">Setting up the EVE-NG VM</a></li>
+      </ul>
+    </li>
+    <li><a href="#installing-eve-ng">Installing EVE-NG</a></li>
+    <li><a href="#getting-ios-images">Getting IOS images</a></li>
+    <li><a href="#creating-your-first-lab">Creating your first lab</a></li>
   </ul>
 </nav></div>
-                </div><div class="content" id="content"><h1 id="what-is-eve-ng">What is EVE-NG?</h1>
-<p>EVE-NG is an amazing tool that should be included in any aspiring/current IT engineers toolbelt. It allows you to create and emulate large scale network/server topologies!</p>
-<h2 id="download">Download</h2>
-<p><a href="https://www.eve-ng.net/index.php/download/" target="_blank" rel="noopener noreffer">Download EVE-NG</a></p>
-<h2 id="pre-requisites">Pre-Requisites</h2>
+                </div><div class="content" id="content"><h2 id="what-is-eve-ng">What is EVE-NG?</h2>
+<p>EVE-NG is an amazing tool that should be included in any aspiring/current IT engineers toolbelt. It allows you to create and emulate large scale network/server topologies!
+<a href="https://www.eve-ng.net/index.php/download/" target="_blank" rel="noopener noreffer">Download EVE-NG</a></p>
+<h2 id="vm-configuration">VM Configuration</h2>
+<h3 id="vmware-workstation-player">VMware Workstation Player</h3>
+<p>Vmware Workstation Player is a free <a href="https://www.google.com/search?client=firefox-b-d&amp;q=whats&#43;a&#43;layer&#43;two&#43;hypervisor" target="_blank" rel="noopener noreffer"><code>type-two hypervisor</code></a> created by VMware that allows you to configure and run virtual machines on directly on top of your local computers pre-existing operating system. This is perfect for the simple home-lab environment. The main limitation with the free version of this software is that it only allows you to run <strong>one</strong> VM at a time. This won&rsquo;t be an issue in our scenario, so we will be using this software throughout this guide.</p>
 <ul>
-<li>VMWare Workstation</li>
+<li><a href="https://www.vmware.com/products/workstation-player.html" target="_blank" rel="noopener noreffer">VMware Workstation Player Download Page</a></li>
 </ul>
+<blockquote>
+<p>If you are looking to run more than one VM at a time and still need a free type-two hypervisor, we reccomend VirtualBox</p>
+</blockquote>
+<h3 id="setting-up-the-eve-ng-vm">Setting up the EVE-NG VM</h3>
+<p>Installing EVE-NG with VMware Workstation is extremely simple</p>
+<ol>
+<li>Download the <a href="https://www.eve-ng.net/index.php/download/" target="_blank" rel="noopener noreffer">EVE-NG Community Edition .OVF</a> File from <a href="https://www.eve-ng.net/index.php/download/" target="_blank" rel="noopener noreffer">eve-ng.net</a></li>
+<li></li>
+<li></li>
+</ol>
+<h2 id="installing-eve-ng">Installing EVE-NG</h2>
+<h2 id="getting-ios-images">Getting IOS images</h2>
+<h2 id="creating-your-first-lab">Creating your first lab</h2>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info"><div class="post-info-tag"><span><a href="/tags/eve-ng/">eve-ng</a>
                 </span><span><a href="/tags/virtualization/">virtualization</a>
@@ -136,20 +158,20 @@
                 Please enable JavaScript to view the comments powered by <a href="https://commento.io/">Commento</a>.
             </noscript></div></article></div>
             </main>
-            <footer class="footer"><div class="footer-container"><div class="footer-line">packetloss.dev</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+            <footer class="footer"><div class="footer-container"><div class="footer-line">wgrana.dev</div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
 </div>
 <script>
 if ('serviceWorker' in navigator) {
     navigator.serviceWorker
         .register('/sw.min.js?version=1.0.1', { scope: '/' })
         .then(() => {
-            console.info('PacketLoss.dev\u00A0Service Worker Registered');
-        }, err => console.error('PacketLoss.dev\u00A0Service Worker registration failed: ', err));
+            console.info('wgrana.dev\u00A0Service Worker Registered');
+        }, err => console.error('wgrana.dev\u00A0Service Worker registration failed: ', err));
 
     navigator.serviceWorker
         .ready
         .then(() => {
-            console.info('PacketLoss.dev\u00A0Service Worker Ready');
+            console.info('wgrana.dev\u00A0Service Worker Ready');
         });
 }
 </script>
@@ -160,4 +182,4 @@ if ('serviceWorker' in navigator) {
                 <i class="fas fa-chevron-up fa-fw"></i>
             </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
                 <i class="fas fa-comment-alt fa-fw"></i>
-            </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="https://cdn.commento.io/js/commento.js" defer></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/typeit/typeit.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/cookieconsent/cookieconsent.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"Test"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"PacketLoss.dev","id-2":"PacketLoss.dev"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script src="/js/theme.min.js"></script></body></html>
+            </a></div><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"><link rel="stylesheet" href="/lib/animate/animate.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script src="https://cdn.commento.io/js/commento.js" defer></script><script src="/lib/lazysizes/lazysizes.min.js"></script><script src="/lib/typeit/typeit.min.js"></script><script src="/lib/clipboard/clipboard.min.js"></script><script src="/lib/sharer/sharer.min.js"></script><script src="/lib/cookieconsent/cookieconsent.min.js"></script><script>window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":10},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"Test"},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"data":{"id-1":"wgrana.dev","id-2":"wgrana.dev"},"typeit":{"cursorChar":"|","cursorSpeed":1000,"data":{"id-1":["id-1"],"id-2":["id-2"]},"duration":-1,"speed":100}};</script><script src="/js/theme.min.js"></script></body></html>

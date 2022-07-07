@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>networking - Category - WillGrana.dev</title>
+        <title>networking - Category - willgrana.dev</title>
         <link>http://tolkingdom.github.io/categories/networking/</link>
-        <description>networking - Category - WillGrana.dev</description>
+        <description>networking - Category - willgrana.dev</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Mon, 20 Jun 2022 11:37:18 -0500</lastBuildDate><atom:link href="http://tolkingdom.github.io/categories/networking/" rel="self" type="application/rss+xml" /><item>
     <title>Posttest</title>
     <link>http://tolkingdom.github.io/posts/posttest/</link>
